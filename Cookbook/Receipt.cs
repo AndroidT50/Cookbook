@@ -6,6 +6,6 @@ namespace Cookbook
     {
         public string Name ;
         public string Text ;
-        public List<Ingredient> Ingredients { get; set; }
+        public List<string> Ingredients { get; set; }
     }
 }

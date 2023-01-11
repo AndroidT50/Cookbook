@@ -18,9 +18,10 @@ namespace Cookbook
             List<Receipt> Ingredient = new List<Receipt>();
             Ingredient.Add(new Receipt{Name = "мемоза"});
             Ingredient.Add(new Receipt{Text = "Тут описание как приготвить"});
-            
+            Receipt Ingredient2 = new Receipt();
+            Ingredient2.Ingredients.Add("Петрушка");
 
-           
+
         }
     }
 }

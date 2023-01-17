@@ -12,7 +12,7 @@ namespace Cookbook
         {
             
             List<Receipt> receipts = new List<Receipt>();
-            receipts.Add(new Receipt{Name = "Мемоза",Text = "Тут описание как приготовить блюдо",Ingredients =//Вот тут у меня сыпится исключение, я не знаю как добавить 
+            receipts.Add(new Receipt{Name = "Мемоза",Text = "Тут описание как приготовить блюдо",Ingredients =//Вот тут у меня сыпится исключение, я не знаю как добавить уже что попало стал писать
             {
                 new Ingredient()
                 {

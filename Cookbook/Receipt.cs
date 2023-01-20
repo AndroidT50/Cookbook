@@ -4,8 +4,9 @@ namespace Cookbook
 {
     public class Receipt
     {
+        public int Id { get; set; }
         public string Name;
         public string Text;
-        public List<Ingredient> Ingredients { get; set; }
+        public List<Units> Units { get; set; }
     }
 }

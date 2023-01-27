@@ -7,6 +7,6 @@ namespace Cookbook
         public int Id { get; set; }
         public string Name;
         public string Text;
-        public List<Units> Units { get; set; }
+        public List<Unit> Units { get; set; }
     }
 }

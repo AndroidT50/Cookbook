@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Cookbook
 {
-    public class Units
+    public class Unit
     {
         public int Id { get; set;}
         public float Weight { get; set;}
